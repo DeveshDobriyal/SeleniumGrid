@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test" parallel="tests" thread-count="2" > <!-- parallel="tests" thread-count="2" -->
+  
+ <!--  <test  name="LoginTest">
+    <classes>
+     
+      <class name="com.uiFramework.prive.slyaws.testScripts.LoginTest"/>
+    </classes>
+  </test>
+  <test  name="AccountContactCreationTest">
+    <classes>
+      <class name="com.uiFramework.prive.slyaws.testScripts.AccountContactCreationTest"/>
+    </classes>
+  </test> -->   
+ 
+ 
+ <test  name="Node1-PolicyCreationTest">
+    <classes>
+      <class name="com.uiFramework.prive.slyaws.testScripts.PolicyCreationTest"/>
+    </classes>
+  </test> 
+ <test  name="Node2-PolicyCreationTest">
+    <classes>
+      <class name="com.uiFramework.prive.slyaws.testScripts.PolicyCreationTestNode2"/>
+    </classes>
+  </test>  
+  
+  
+</suite> 
